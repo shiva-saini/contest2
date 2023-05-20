@@ -1,0 +1,1 @@
+created navbar simply using ul, li , a, and div

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="left">
+          <li>
+            <a href="#">Library System</a>
+          </li>
+        </ul>
+        <ul class="right">
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="books-container">
+        <h1 class="heading">Books</h1>
+        <table id="books">
+          <tr>
+            <th>Book ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>
+              <a href="#">Book Title 1</a>
+              <div class="inner">
+                <table  border='1' style='border-collapse:collapse'>
+                    <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                      <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                      <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                  </table>
+              </div>
+              
+            </td>
+            <td>Author Name 1</td>
+            <td>Genre 1</td>
+            <td>Availability 1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td id="second">
+              <a id="title" href="#">Book Title 2</a>
+              <div class="inner">
+                <table  border='1' style='border-collapse:collapse'>
+                    <tr>
+                      <td class="innercol">This is one</td>
+                    </tr>
+                    <tr>
+                      <td class="innercol">This is one</td>
+                    </tr>
+                    <tr>
+                      <td class="innercol">This is one</td>
+                    </tr>
+                  </table>
+              </div>
+            </td>
+            <td>Author Name 2</td>
+            <td>Genre 2</td>
+            <td>Availability 2</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <a id="title" href="#">Book Title 3</a>
+              <div class="inner">
+                <table  border='1' style='border-collapse:collapse'>
+                    <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                      <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                      <tr>
+                        <td class="innercol">This is one</td>
+                      </tr>
+                  </table>
+              </div>
+            </td>
+            <td>Author Name 3</td>
+            <td>Genre 3</td>
+            <td>Availability 3</td>
+          </tr>
+         
+        </table>
+      </div>
+      <div class="register-container">
+        <h1 class="heading">Register</h1>
+        <div class="first-name">
+           <label for="fname">First Name:</label><br>
+           <input class="input" type="text">
+        </div>
+
+        <div class="last-name">
+            <label for="lname">Last Name:</label><br>
+            <input class="input" type="text">
+        </div>
+
+        <div class="dob">
+            <label for="db">Date Of Birth:</label><br>
+            <input class="input" type="date">
+        </div>
+
+        <div class="age">
+            <label for="age">Age:</label><br>
+            <input class="input" type="text">
+        </div>
+
+        <div class="email">
+            <label for="eml">Email:</label><br>
+            <input class="input" type="email">
+        </div>
+
+        <div class="password">
+            <label for="pass">Password:</label><br>
+            <input class="input" type="password">
+        </div>
+
+        <div class="cpassword">
+            <label for="cpass">Confirm Password:</label><br>
+            <input class="input" type="password">
+        </div>
+
+        <br>
+        <div class="reg">
+           <button class="input btn">Register</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
